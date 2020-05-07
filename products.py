@@ -12,4 +12,5 @@ while True:
 	#produsts.append([name, price])等於以上三行
 print(produsts)
 
-produsts[0][0]
+for p in produsts:#大清單裡面的小清單
+	print(p[0], "的價格是", p[1])
